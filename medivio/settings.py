@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env("SECRET_KEY")
 DEBUG = True
 ALLOWED_HOSTS = ["*"]
-# CSRF_TRUSTED_ORIGINS = ["https://southbank1.onrender.com", "https://*.127.0.0.1"]
+CSRF_TRUSTED_ORIGINS = ["https://medivio.onrender.com/", "https://*.127.0.0.1"]
 
 # Application definition
 
