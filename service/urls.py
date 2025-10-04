@@ -1,0 +1,11 @@
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from . import views
+
+router = DefaultRouter()  # our router
+# antena of the router
+router.register("", views.ServiceViewset)
+
+urlpatterns = [
+    path("", include(router.urls)),
+]

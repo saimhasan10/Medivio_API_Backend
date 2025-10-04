@@ -1,0 +1,19 @@
+<div>
+  <h2>Hello {{user.first_name}} {{user.last_name}}</h2>
+  <p>
+    You requested for an appointment with {{doctor.user.first_name}}
+    {{doctor.user.last_name}}
+  </p>
+  <br />
+  <p>
+    Your doctor is available to meet with you please join via the link below as
+    soon as possible
+  </p>
+  <p>
+    Meet link:
+    <a href="{{doctor.meet_link}}" target="_blank">{{doctor.meet_link}}</a>
+  </p>
+  <p>Thank You</p>
+  <br />
+  <h4>Medivio</h4>
+</div>
