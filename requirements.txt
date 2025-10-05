@@ -6,6 +6,7 @@ attrs
 contourpy
 cycler
 discord.py
+gunicorn
 dj-database-url
 Django
 django-email
