@@ -14,7 +14,7 @@ django-environ
 django-filter
 djangorestframework
 EasyProcess
-jango-cors-headers
+django-cors-headers==4.4.0
 entrypoint2
 environ
 fonttools
