@@ -15,6 +15,7 @@ django-filter
 djangorestframework
 EasyProcess
 django-cors-headers==4.4.0
+whitenoise==6.5.0
 entrypoint2
 environ
 fonttools
